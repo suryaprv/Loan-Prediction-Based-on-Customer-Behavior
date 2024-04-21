@@ -46,14 +46,17 @@ Dalam penentuan tingkat resiko gagal bayar (risk flag) yang dilakukan oleh nasab
 
 Selain itu, dapat juga diterapkan analisis dan visualisasi data berdasarkan:
   - **usia vs status**
+    
     Tingkat resiko berdasarkan usia dan status yang tertinggi yaitu pada usia Dewasa dengan status single sebesar 14.99% atau 9.584 customer beresiko.
     Berdasarkan data ini pemberi pinjaman dapat memberikan penambahan jaminan pada customer dengan usia Dewasa dan status Single untuk memperkecil kemungkinan kerugian perusahaan saat customer tersebut berisiko.
 
   - **state**
+    
     Dari 10 state dengan jumlah pelanggan terbanyak, tingkat resiko tertinggi terdapat di state Uttar Pradesh sebanyak 3.343 nasabah beresiko. Top 10 Jumlah nasabah beresiko di state Uttar Prades di dominasi kepemilikan rumah sewa dan tidak mempunyai mobil dengan Income > 2,000,000.
     Berdasarkan data tersebut, dengan melakukan Clusterisasi daerah yang beresiko tinggi  dan mewajibkan DP tinggi agar cicilan customer rendah sehingga customer tidak berat saat membayar pinjaman.
     Dari segi bisnis perusahaan dapat menaikkan  Bunga pinjaman agar modal yang dikeluarkan untuk pemberian pinjaman  dapat kembali diawal.
 
   - **harta kepemilikan dan income dengan jumlah user**
+    
     Berdasarkan Income, Kepemilikan Rumah dan Mobil dapat dibuat sebuah penilaian harta kepemilikan(Net Worth Value) dari User. Berdasarkan Incomenya dapat diberikan nilai 1-3 dari Low, Medium dan High Income berdasarkan pembagian dari Q1 dan Q3 Income. Untuk Kepemilikan rumah diberikan nilai 3 untuk ‘owned’, 2 untuk ‘rented’ dan 1 untuk ‘noown_norent’ dan kemudian dijumlahkan. Untuk kepemilikan mobil digunakan 1 untuk ‘yes’ dan 0 untuk ‘no’. Berdasarkan grafik dari data diperoleh bahwa user dominan memiliki harta kekayaan baik itu dari Income, rumah ataupun mobil. User dengan value score 4 memiliki jumlah terbanyak dan juga memiliki risk yang besar.
     Dari data tersebut, pemberian kredit lebih baik diberikan kepada nasabah yang memiliki networth value yang bernilai 4 kebawah dapat dilakukan penambahan bunga atau peningkatan DP untuk mengurangi kerugian apabila user tersebut gagal bayar. 
